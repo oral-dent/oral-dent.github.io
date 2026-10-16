@@ -1,4 +1,21 @@
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:#163b51;line-height:1.6;background:#fff}.wrap{width:min(1120px,92%);margin:auto}.topline{background:#0b3b53;color:#d9f4f6;font-size:12px}.topinner{display:flex;justify-content:space-between;padding:8px 0}.header{height:78px;display:flex;align-items:center;background:#fff;position:sticky;top:0;z-index:50;box-shadow:0 3px 20px #12394b12}.nav{height:78px;display:flex;align-items:center;gap:25px}.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#163b51;margin-right:auto}.logo-icon{display:grid;place-items:center;width:45px;height:45px;border-radius:14px;background:#10aeba;color:#fff;font-weight:900}.logo b{display:block;letter-spacing:1.6px;font-size:18px}.logo small{display:block;color:#80919c;font-size:10px;letter-spacing:.7px}.nav nav{display:flex;gap:25px}.nav nav a{font-size:13px;font-weight:700;text-decoration:none;color:#35576b}.btn{border:0;border-radius:10px;padding:13px 21px;text-decoration:none;font-weight:800;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;font-size:13px}.btn-main{background:#10aeba;color:#fff;box-shadow:0 10px 25px #10aeba38}.btn-white{background:#fff;color:#087d88}.big{padding:15px 24px;font-size:14px}.btn-outline{border:1px solid #d9eaee;color:#163b51;background:#fff}.menu{display:none;border:0;background:transparent;font-size:25px}.hero{height:620px;position:relative;overflow:hidden}.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,#06394fe8 0%,#073d54c2 43%,#073d5440 100%),url("hero-familia-v29.jpg") center/cover}.hero-content{position:relative;height:100%;display:flex;align-items:center}.hero-copy{color:#fff;max-width:700px}.kicker{font-size:11px;letter-spacing:2.2px;font-weight:900;color:#0aa1ad}.hero .kicker{color:#94f1f4}.hero h1{font-size:clamp(48px,6vw,76px);line-height:1.02;letter-spacing:-3px;margin:18px 0}.hero h1 em{font-style:normal;color:#8deef1}.hero p{font-size:18px;max-width:650px;color:#e9f4f5}.actions{display:flex;gap:12px;margin:28px 0}.hero-points{display:flex;gap:18px;flex-wrap:wrap;font-size:13px}.reasons,.treatments,.contact{padding:90px 0}.section-head{max-width:700px;margin-bottom:45px}.center{text-align:center;margin-left:auto;margin-right:auto}.section-head h2,.doctor-copy h2,.contact h2,.cta h2{font-size:clamp(32px,4.2vw,48px);line-height:1.1;letter-spacing:-1.3px;margin:10px 0 13px}.section-head p,.doctor-copy p,.contact>p{color:#70838f}.reason-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.reason-grid article{border:1px solid #e2eef0;border-radius:18px;background:#fff;overflow:hidden;box-shadow:0 10px 30px #12394b08;transition:transform .25s,box-shadow .25s}.reason-grid article:hover{transform:translateY(-6px);box-shadow:0 18px 38px #12394b15}.reason-photo{height:155px;background-size:cover;background-position:center}.photo-professional{background-image:linear-gradient(135deg,#0b5368aa,#10aeba55),url("https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=900&q=85")}.photo-care{background-image:linear-gradient(135deg,#0b536855,#10aeba55),url("https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=900&q=85")}.photo-family{background-image:linear-gradient(135deg,#0b536855,#10aeba44),url("https://professional.sunstargum.com/adobe/dynamicmedia/deliver/dm-aid--7ec6d787-9811-47b0-b5ff-a117778a6ea1/ocp-dentist-talking-with-patient-in-dental-office.jpg?preferwebp=true&quality=85")}.photo-clinic{background-image:linear-gradient(135deg,#0b536855,#10aeba44),url("https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=85")}.reason-body{padding:22px}.reason-grid h3{margin:0 0 7px}.reason-grid p,.treatment p,.steps p{font-size:13px;color:#70838f;margin:0}.doctor{padding:95px 0;background:#eef9fa}.doctor-grid{display:grid;grid-template-columns:480px 1fr;gap:75px;align-items:center}.doctor-photo{height:500px;border-radius:28px;position:relative;background:linear-gradient(145deg,#d8f4f5,#aee0e4);display:grid;place-items:center;overflow:hidden}.photo-placeholder{width:78%;height:82%;border-radius:24px;background:linear-gradient(145deg,#f9ffff,#dff4f5);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#0b909b}.photo-placeholder span{font-size:90px;font-weight:900}.photo-placeholder small{color:#71858e;font-size:12px}.credential{position:absolute;right:24px;bottom:24px;background:#fff;padding:13px 18px;border-radius:12px;box-shadow:0 10px 30px #12394b20;font-size:13px}.credential strong{font-size:20px;color:#0b919d}.doctor-copy h3{font-size:17px;color:#0b919d;margin-top:0}.doctor-copy .note,.note{font-size:12px;color:#84939b;background:#fff;border-left:3px solid #10aeba;padding:12px 14px}.text-link{display:inline-block;margin-top:12px;color:#087e89;font-weight:800;text-decoration:none}.treatments{background:#fff}.treatment-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.treatment{border:1px solid #e1ecef;border-radius:18px;background:#fff;position:relative;min-height:255px;box-shadow:0 10px 28px #12394b07;overflow:hidden;transition:transform .25s,box-shadow .25s}.treatment:hover{transform:translateY(-6px);box-shadow:0 18px 38px #12394b15}.treatment>span{position:absolute;right:16px;top:14px;z-index:2;color:#fff;background:#0b5268cc;padding:4px 7px;border-radius:6px;font-weight:800;font-size:11px}.treatment-image{height:145px;background-size:cover;background-position:center}.image-general{background-image:linear-gradient(135deg,#063f53aa,#10aeba44),url("https://static.wixstatic.com/media/14770b_230154181c004f7e94c5e652ec04ef30~mv2.png/v1/fill/w_680%2Ch_922%2Cal_c/1a36188fea1949b7a9c0e11a4786b9c5.png")}.image-estetica{background-image:linear-gradient(135deg,#063f5344,#10aeba44),url("https://cdn.prod.website-files.com/65f1f1897f98bc147645eb93/69177d0e92c293b1d7ead4bd_679c344417066b1851fc7515_2.webp")}.image-ortodoncia{background-image:linear-gradient(135deg,#063f5344,#10aeba44),url("https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https%3A/assets.cdn.filesafe.space/nq9e4Mr0MR0gxIVFN9Up/media/6712510ee116fe247d5318a7.png")}.image-rehabilitacion{background-image:linear-gradient(135deg,#063f5344,#10aeba44),url("https://static.wixstatic.com/media/af92aa_61791094956e4dcfad41bee61319e92d~mv2.jpg/v1/fill/w_640%2Ch_518%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/af92aa_61791094956e4dcfad41bee61319e92d~mv2.jpg")}.image-odontopediatria{background-image:linear-gradient(135deg,#063f5344,#10aeba44),url("https://static.wixstatic.com/media/a986f6_f8e5ebefe4364406842a64b4aaea5242~mv2.png/v1/fill/w_980%2Ch_980%2Cal_c%2Cq_90%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/a986f6_f8e5ebefe4364406842a64b4aaea5242~mv2.png")}.image-prevencion{background-image:linear-gradient(135deg,#063f5344,#10aeba44),url("https://images.squarespace-cdn.com/content/v1/5dd2498b4e72ce1d58c0fe81/342e6c4d-a7e2-4c55-8522-3178c14e989e/5U6A4025.jpg?format=1500w")}.treatment-body{padding:18px 20px}.treatment h3{margin:0 0 5px}.process{padding:90px 0;background:#f7fafb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:#163b51;line-height:1.6;background:#fff}.wrap{width:min(1120px,92%);margin:auto}.topline{background:#0b3b53;color:#d9f4f6;font-size:12px}.topinner{display:flex;justify-content:space-between;padding:8px 0}.header{height:78px;display:flex;align-items:center;background:#fff;position:sticky;top:0;z-index:50;box-shadow:0 3px 20px #12394b12}.nav{height:78px;display:flex;align-items:center;gap:25px}.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#163b51;margin-right:auto}.logo-icon{display:grid;place-items:center;width:45px;height:45px;border-radius:14px;background:#10aeba;color:#fff;font-weight:900}.logo b{display:block;letter-spacing:1.6px;font-size:18px}.logo small{display:block;color:#80919c;font-size:10px;letter-spacing:.7px}.nav nav{display:flex;gap:25px}.nav nav a{font-size:13px;font-weight:700;text-decoration:none;color:#35576b}.btn{border:0;border-radius:10px;padding:13px 21px;text-decoration:none;font-weight:800;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;font-size:13px}  
+
+.btn-main{background:#2FA8E0;color:#fff;box-shadow:0 10px 25px #2FA8E038}
+
+.btn-white{background:#fff;color:#087d88}.big{padding:15px 24px;font-size:14px}.btn-outline{border:1px solid #d9eaee;color:#163b51;background:#fff}.menu{display:none;border:0;background:transparent;font-size:25px}.hero{height:620px;position:relative;overflow:hidden}.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,#06394fe8 0%,#073d54c2 43%,#073d5440 100%),url("hero-familia-v29.jpg") center/cover}.hero-content{position:relative;height:100%;display:flex;align-items:center}.hero-copy{color:#fff;max-width:700px}
+
+.kicker{font-size:11px;letter-spacing:2.2px;font-weight:900;color:#174A78}
+
+.hero 
+
+
+.kicker{color:#94f1f4}
+
+.hero h1{font-size:clamp(48px,6vw,76px);line-height:1.02;letter-spacing:-3px;margin:18px 0}
+
+.hero h1 em{font-style:normal;color:#174A78}
+
+.hero p{font-size:18px;max-width:650px;color:#e9f4f5}.actions{display:flex;gap:12px;margin:28px 0}.hero-points{display:flex;gap:18px;flex-wrap:wrap;font-size:13px}.reasons,.treatments,.contact{padding:90px 0}.section-head{max-width:700px;margin-bottom:45px}.center{text-align:center;margin-left:auto;margin-right:auto}.section-head h2,.doctor-copy h2,.contact h2,.cta h2{font-size:clamp(32px,4.2vw,48px);line-height:1.1;letter-spacing:-1.3px;margin:10px 0 13px}.section-head p,.doctor-copy p,.contact>p{color:#70838f}.reason-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.reason-grid article{border:1px solid #e2eef0;border-radius:18px;background:#fff;overflow:hidden;box-shadow:0 10px 30px #12394b08;transition:transform .25s,box-shadow .25s}.reason-grid article:hover{transform:translateY(-6px);box-shadow:0 18px 38px #12394b15}.reason-photo{height:155px;background-size:cover;background-position:center}.photo-professional{background-image:linear-gradient(135deg,#0b5368aa,#10aeba55),url("https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=900&q=85")}.photo-care{background-image:linear-gradient(135deg,#0b536855,#10aeba55),url("https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=900&q=85")}.photo-family{background-image:linear-gradient(135deg,#0b536855,#10aeba44),url("https://professional.sunstargum.com/adobe/dynamicmedia/deliver/dm-aid--7ec6d787-9811-47b0-b5ff-a117778a6ea1/ocp-dentist-talking-with-patient-in-dental-office.jpg?preferwebp=true&quality=85")}.photo-clinic{background-image:linear-gradient(135deg,#0b536855,#10aeba44),url("https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=85")}.reason-body{padding:22px}.reason-grid h3{margin:0 0 7px}.reason-grid p,.treatment p,.steps p{font-size:13px;color:#70838f;margin:0}.doctor{padding:95px 0;background:#eef9fa}.doctor-grid{display:grid;grid-template-columns:480px 1fr;gap:75px;align-items:center}.doctor-photo{height:500px;border-radius:28px;position:relative;background:linear-gradient(145deg,#d8f4f5,#aee0e4);display:grid;place-items:center;overflow:hidden}.photo-placeholder{width:78%;height:82%;border-radius:24px;background:linear-gradient(145deg,#f9ffff,#dff4f5);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#0b909b}.photo-placeholder span{font-size:90px;font-weight:900}.photo-placeholder small{color:#71858e;font-size:12px}.credential{position:absolute;right:24px;bottom:24px;background:#fff;padding:13px 18px;border-radius:12px;box-shadow:0 10px 30px #12394b20;font-size:13px}.credential strong{font-size:20px;color:#0b919d}.doctor-copy h3{font-size:17px;color:#0b919d;margin-top:0}.doctor-copy .note,.note{font-size:12px;color:#84939b;background:#fff;border-left:3px solid #10aeba;padding:12px 14px}.text-link{display:inline-block;margin-top:12px;color:#087e89;font-weight:800;text-decoration:none}.treatments{background:#fff}.treatment-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.treatment{border:1px solid #e1ecef;border-radius:18px;background:#fff;position:relative;min-height:255px;box-shadow:0 10px 28px #12394b07;overflow:hidden;transition:transform .25s,box-shadow .25s}.treatment:hover{transform:translateY(-6px);box-shadow:0 18px 38px #12394b15}.treatment>span{position:absolute;right:16px;top:14px;z-index:2;color:#fff;background:#0b5268cc;padding:4px 7px;border-radius:6px;font-weight:800;font-size:11px}.treatment-image{height:145px;background-size:cover;background-position:center}.image-general{background-image:linear-gradient(135deg,#063f53aa,#10aeba44),url("https://static.wixstatic.com/media/14770b_230154181c004f7e94c5e652ec04ef30~mv2.png/v1/fill/w_680%2Ch_922%2Cal_c/1a36188fea1949b7a9c0e11a4786b9c5.png")}.image-estetica{background-image:linear-gradient(135deg,#063f5344,#10aeba44),url("https://cdn.prod.website-files.com/65f1f1897f98bc147645eb93/69177d0e92c293b1d7ead4bd_679c344417066b1851fc7515_2.webp")}.image-ortodoncia{background-image:linear-gradient(135deg,#063f5344,#10aeba44),url("https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https%3A/assets.cdn.filesafe.space/nq9e4Mr0MR0gxIVFN9Up/media/6712510ee116fe247d5318a7.png")}.image-rehabilitacion{background-image:linear-gradient(135deg,#063f5344,#10aeba44),url("https://static.wixstatic.com/media/af92aa_61791094956e4dcfad41bee61319e92d~mv2.jpg/v1/fill/w_640%2Ch_518%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/af92aa_61791094956e4dcfad41bee61319e92d~mv2.jpg")}.image-odontopediatria{background-image:linear-gradient(135deg,#063f5344,#10aeba44),url("https://static.wixstatic.com/media/a986f6_f8e5ebefe4364406842a64b4aaea5242~mv2.png/v1/fill/w_980%2Ch_980%2Cal_c%2Cq_90%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/a986f6_f8e5ebefe4364406842a64b4aaea5242~mv2.png")}.image-prevencion{background-image:linear-gradient(135deg,#063f5344,#10aeba44),url("https://images.squarespace-cdn.com/content/v1/5dd2498b4e72ce1d58c0fe81/342e6c4d-a7e2-4c55-8522-3178c14e989e/5U6A4025.jpg?format=1500w")}.treatment-body{padding:18px 20px}.treatment h3{margin:0 0 5px}.process{padding:90px 0;background:#f7fafb}
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:34px}
 .step-card{background:#fff;border-radius:18px;overflow:hidden;border:1px solid #e1ecef;box-shadow:0 10px 28px #12394b0b}
 .step-card>img{display:block;width:100%;height:178px;object-fit:cover}
@@ -220,3 +237,86 @@
 }
 
 
+/* V4.0 - Unificación de acentos en azul claro */
+:root {
+  --oral-accent: #55B8F0;
+}
+
+.logo-icon,
+.btn-main,
+.float,
+.wa-mark,
+.offer-grid button,
+.day.selected {
+  background-color: var(--oral-accent);
+}
+
+.btn-main,
+.float {
+  box-shadow: 0 10px 25px #55B8F038;
+}
+
+.kicker,
+.hero .kicker,
+.hero h1 em,
+.step-top b,
+.step-card h4,
+.process-footer span,
+.profile-label,
+.credential strong,
+.doctor-copy h3,
+.text-link,
+.offer-tag,
+.wa-copy b,
+.wa-copy strong,
+.contact-detail h3,
+.contact-question h3,
+.tooth-mark,
+.map-label strong,
+.form #msg,
+.appointment-status {
+  color: var(--oral-accent);
+}
+
+.step-icon,
+.process-footer span {
+  background-color: #EAF6FE;
+  color: var(--oral-accent);
+}
+
+
+.btn-white {
+  color: #063F72;
+}
+
+.btn-outline {
+  color: var(--oral-accent);
+  border-color: var(--oral-accent);
+}
+
+.actions .btn-main {
+  background: var(--oral-accent);
+  color: #fff;
+  box-shadow: 0 10px 25px #55B8F038;
+}
+
+
+
+
+.btn-outline {
+  border-color: var(--oral-accent);
+}
+
+.day:hover,
+.day.today,
+.day.selected {
+  border-color: var(--oral-accent);
+}
+
+.dot.selected {
+  background-color: var(--oral-accent);
+}
+
+.presentation-trigger {
+  background: linear-gradient(135deg, #55B8F0, #238CCB);
+}
