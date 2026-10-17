@@ -241,9 +241,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (!destino || !sections.includes(destino)) return;
 
-        sections.forEach(section => {
-            section.style.display = section === destino ? '' : 'none';
-        });
+       sections.forEach(section => {
+    const esSeguimiento = id === 'seguimiento';
+    const esTestimonios = section.classList.contains('testimonials');
+
+    section.style.display =
+        section === destino || (esSeguimiento && esTestimonios)
+            ? ''
+            : 'none';
+});
 
         window.scrollTo(0, 0);
     }
