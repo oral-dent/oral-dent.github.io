@@ -29,7 +29,21 @@
 .step-note{margin-top:18px;padding:12px 13px;background:#eef9fa;border-radius:10px;color:#31586a;font-size:11px;line-height:1.5;font-weight:700}
 .process-footer{display:flex;align-items:center;justify-content:center;gap:12px;margin:30px auto 0;max-width:900px;color:#607783}.process-footer span{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#e7f8f9;color:#0aa1ad;font-weight:900}
 .process-footer p{margin:0;font-size:13px}
-.testimonials{padding:90px 0}.quote-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.quote-grid article{padding:28px;border:1px solid #e2ecef;border-radius:17px;background:#fff}.quote-grid article>div{letter-spacing:3px;color:#e7ad36}.quote-grid p{font-size:16px}.quote-grid small{color:#8a999f;font-size:11px}.cta{padding:62px 0;background:#0a8792;color:#fff}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}.cta h2{color:#fff;margin:8px 0}.cta p{margin:0;color:#d8f3f4}.cta .kicker{color:#95f0f2}.contact{background:#fff}.contact-grid{display:grid;grid-template-columns:1fr 470px;gap:80px}.contact-card{margin-top:30px;display:grid;gap:20px}.contact-card div{display:flex;flex-direction:column}.contact-card span{color:#70838f;font-size:13px}.form{background:#f3fafb;border-radius:20px;padding:30px}.form h3{margin-top:0;font-size:22px}.form label{display:block;font-size:12px;font-weight:800;margin:13px 0}.form input,.form select,.form textarea{display:block;width:100%;margin-top:5px;border:1px solid #d7e6e9;border-radius:9px;padding:11px;font:inherit;background:#fff}.form button{width:100%;margin-top:8px}.form #msg{font-size:12px;color:#087e89}.foot{padding:25px 0;display:flex;justify-content:space-between;color:#7c8e97;font-size:11px}.foot b{color:#163b51;letter-spacing:1.4px}.foot span{display:block}.float{position:fixed;right:25px;bottom:25px;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#10aeba;color:#fff;text-decoration:none;font-size:24px;box-shadow:0 12px 30px #10aeba55;z-index:60}@media(max-width:850px){.nav nav,.nav>.btn{display:none}.menu{display:block}.reason-grid,.steps{grid-template-columns:repeat(2,1fr)}.doctor-grid,.contact-grid{grid-template-columns:1fr;gap:35px}.doctor-photo{height:430px}.treatment-grid,.quote-grid{grid-template-columns:repeat(2,1fr)}.cta-inner{flex-direction:column;align-items:flex-start}}@media(max-width:560px){.topinner{justify-content:center}.topinner span+span{display:none}.hero{height:600px}.hero h1{font-size:47px}.hero p{font-size:16px}.actions{flex-direction:column}.actions .btn{width:100%}.reason-grid,.steps,.treatment-grid,.quote-grid{grid-template-columns:1fr}.doctor-photo{height:350px}.foot{display:block}.foot>span{margin-top:8px}}
+.testimonials{padding:90px 0}.quote-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.quote-grid article{padding:28px;border:1px solid #e2ecef;border-radius:17px;background:#fff}.quote-grid article>div{letter-spacing:3px;color:#e7ad36}.quote-grid p{font-size:16px}.quote-grid small{color:#8a999f;font-size:11px}.cta{padding:62px 0;background:#0a8792;color:#fff}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}.cta h2{color:#fff;margin:8px 0}.cta p{margin:0;color:#d8f3f4}.cta .kicker{color:#95f0f2}.contact{background:#fff}.contact-grid{display:grid;grid-template-columns:1fr 470px;gap:80px}.contact-card{margin-top:30px;display:grid;gap:20px}.contact-card div{display:flex;flex-direction:column}.contact-card span{color:#70838f;font-size:13px}.form{background:#f3fafb;border-radius:20px;padding:30px}.form h3{margin-top:0;font-size:22px}.form label{display:block;font-size:12px;font-weight:800;margin:13px 0}.form input,.form select,.form textarea{display:block;width:100%;margin-top:5px;border:1px solid #d7e6e9;border-radius:9px;padding:11px;font:inherit;background:#fff}.form button{width:100%;margin-top:8px}.form #msg{font-size:12px;color:#087e89}
+
+.foot {
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  color: #496779;
+  font-size: 11px;
+}
+
+.foot b{color:#163b51;letter-spacing:1.4px}.foot span{display:block}
+
+.float{position:fixed;right:25px;bottom:25px;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#10aeba;color:#fff;text-decoration:none;font-size:24px;box-shadow:0 12px 30px #10aeba55;z-index:60}@media(max-width:850px){.nav nav,.nav>.btn{display:none}.menu{display:block}.reason-grid,.steps{grid-template-columns:repeat(2,1fr)}.doctor-grid,.contact-grid{grid-template-columns:1fr;gap:35px}.doctor-photo{height:430px}.treatment-grid,.quote-grid{grid-template-columns:repeat(2,1fr)}.cta-inner{flex-direction:column;align-items:flex-start}}@media(max-width:560px){.topinner{justify-content:center}.topinner span+span{display:none}.hero{height:600px}.hero h1{font-size:47px}.hero p{font-size:16px}.actions{flex-direction:column}.actions .btn{width:100%}.reason-grid,.steps,.treatment-grid,.quote-grid{grid-template-columns:1fr}.doctor-photo{height:350px}.foot{display:block}.foot>span{margin-top:8px}}
 
 /* Perfil profesional */
 .profile{padding:95px 0;background:#f7fbfc}.profile-grid{display:grid;grid-template-columns:470px 1fr;gap:70px;align-items:center}.profile-photo-wrap{position:relative;border-radius:28px;overflow:hidden;box-shadow:0 20px 45px #12394b18;background:#dff4f5}.profile-photo-wrap img{display:block;width:100%;height:560px;object-fit:cover;object-position:center}.profile-badge{position:absolute;left:22px;right:22px;bottom:22px;background:#063e72eF;color:#fff;border-radius:15px;padding:14px 18px;display:flex;justify-content:space-between;align-items:center;gap:15px}.profile-badge strong{font-size:20px}.profile-badge span{font-size:12px;opacity:.9}.profile-label{font-size:11px;letter-spacing:2px;font-weight:900;color:#0aa1ad}.profile-content h3{font-size:32px;line-height:1.15;margin:10px 0 12px;color:#163b51}.profile-content>p{color:#70838f}.profile-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:24px}.profile-cards article{background:#fff;border:1px solid #e1ecef;border-radius:15px;padding:18px;box-shadow:0 8px 24px #12394b08}.profile-cards b{display:block;color:#0b5368;font-size:14px;margin-bottom:6px}.profile-cards p{margin:0;color:#70838f;font-size:12px;line-height:1.55}.profile-note{margin-top:18px;padding:13px 15px;border-left:3px solid #10aeba;background:#eef9fa;color:#70838f;font-size:11px}.doctor-real-photo{width:100%;height:500px;object-fit:cover;object-position:center top;display:block}.doctor-photo{background:#d8f4f5}
@@ -319,4 +333,29 @@
 
 .presentation-trigger {
   background: linear-gradient(135deg, #55B8F0, #238CCB);
+}
+
+
+/* V4.1 - Pie de página Oral Dent */
+footer {
+  background: #EAF6FE;
+  border-top: 1px solid #CDE8FA;
+}
+
+footer .foot b {
+  color: #163B51;
+}
+
+footer .foot > span {
+  color: #496779;
+}
+
+@media (max-width: 560px) {
+  footer .foot {
+    padding: 10px 0;
+  }
+
+  footer .foot > span {
+    margin-top: 5px;
+  }
 }
